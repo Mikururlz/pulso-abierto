@@ -7,9 +7,9 @@ Autora: Karen Barrionuevo. Versión final de Programación Web, preparada con as
 ## Publicación
 
 - Repositorio GitHub: https://github.com/Mikururlz/pulso-abierto
-- Aplicación en Vercel: pendiente de finalizar el despliegue.
+- Aplicación en Vercel: https://pulso-abierto-eta.vercel.app
 
-La dirección pública se incorporará después del despliegue verificado. El preview local no es una URL pública ni sustituye la publicación de la actividad.
+La aplicación está publicada en producción en Vercel, vinculada al repositorio de GitHub y a su rama `main`.
 
 ## Tecnologías
 
@@ -106,6 +106,9 @@ Importar el repositorio de GitHub y seleccionar la raíz que contiene `package.j
 - Pruebas ejecutadas: `npm run test`; 3 archivos y 10 casos aprobados, incluido el formato monetario tras la refactorización.
 - Build: generado correctamente; TypeScript sin errores. Advertencia no bloqueante de React Router sobre `use client`.
 - Preview: comprobado en navegador con datos reales de CoinGecko, ida y vuelta al detalle, favorita compartida y conservada al recargar, validación del formulario y vistas de escritorio y móvil de 390 px. Sin errores de consola observados.
-- Push: repositorio remoto seleccionado; publicación de esta versión en curso.
-- Despliegue: Vercel autorizado; publicación desde el repositorio en curso.
-- Verificación pública: pendiente; no se afirma que un preview local sea un despliegue realizado.
+- Push: versión final subida a `main` en https://github.com/Mikururlz/pulso-abierto. Commit de implementación verificado: `66f2412b6c4d46cd5aa194de1bd0108172e6895e`.
+- Despliegue: realizado en Vercel desde GitHub, entorno `production`, con estado `READY`, framework Vite y Node 24.x.
+- URL pública: https://pulso-abierto-eta.vercel.app
+- Verificación pública: carga sin iniciar sesión en Vercel; precios reales de las tres monedas; navegación al detalle y regreso; recarga directa de `/criptomonedas/bitcoin`; marcado y desmarcado conservados al recargar; validación del formulario; vistas de escritorio y móvil de 390 px. Sin errores de consola observados.
+- Fecha de verificación pública: 25/11/2026, America/Buenos_Aires. Comprobaciones realizadas con asistencia de Codex.
+
